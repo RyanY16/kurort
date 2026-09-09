@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#23634a" />
+    <title>Kurort Japan | Find Your Walk</title>
+    <meta name="description" content="Explore Kurort health walking courses across Japan. Compare published distances, terrain and suitability, and save walks for later." />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#course-search" data-i18n="skip">Skip to courses</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Kurort Japan">
+        <span class="brand-mark"><i data-lucide="footprints"></i></span>
+        <span>KURORT <span class="brand-country">JAPAN</span><small data-i18n="brandSub">Health walking, naturally.</small></span>
+      </a>
+      <nav class="main-tabs" aria-label="Courses">
+        <button type="button" class="nav-tab active" data-tab="explore"><i data-lucide="compass"></i><span data-i18n="explore">Explore</span></button>
+        <button type="button" class="nav-tab" data-tab="saved"><i data-lucide="bookmark"></i><span data-i18n="saved">Saved walks</span><span id="saved-count" class="nav-count">0</span></button>
+      </nav>
+      <div class="language-toggle" role="group" aria-label="Language / 言語">
+        <button type="button" data-lang="en" class="active" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+      </div>
+    </header>
+    <main class="workspace">
+      <aside class="explorer" aria-label="Course explorer">
+        <div id="browse-panel">
+          <section class="search-section">
+            <div class="heading-row"><span class="eyebrow" data-i18n="eyebrow">Walking course finder</span><i data-lucide="sprout"></i></div>
+            <h1 id="browse-title" data-i18n="title">Find your kind of walk.</h1>
+            <p id="inventory-summary" class="intro" aria-live="polite" data-i18n="loading">Loading courses...</p>
+            <label class="search-box" for="course-search"><i data-lucide="search"></i><span class="sr-only" data-i18n="searchLabel">Search courses</span><input id="course-search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Town, region or course" autocomplete="off" /></label>
+            <div class="filter-grid">
+              <label><span data-i18n="region">Region</span><select id="area-filter"><option value="" data-i18n="allJapan">All Japan</option></select></label>
+              <label><span data-i18n="distance">Distance</span><select id="distance-filter"><option value="" data-i18n="anyDistance">Any distance</option><option value="2" data-i18n="under2">Up to 2 km</option><option value="3" data-i18n="under3">Up to 3 km</option><option value="5" data-i18n="under5">Up to 5 km</option></select></label>
+              <label><span data-i18n="terrain">Terrain</span><select id="terrain-filter"><option value="" data-i18n="anyTerrain">Any terrain</option><option value="gentle" data-i18n="gentle">Flat & gentle</option><option value="rolling" data-i18n="rolling">Rolling hills</option><option value="hilly" data-i18n="hilly">Hills & highlands</option></select></label>
+              <label><span data-i18n="walkingWith">Walking with</span><select id="audience-filter"><option value="" data-i18n="anyone">Anyone</option><option value="children" data-i18n="children">Children</option><option value="older_adults" data-i18n="older">Older adults</option></select></label>
+            </div>
+            <label class="checkbox-row"><input id="published-filter" type="checkbox" /><span data-i18n="publishedOnly">Published distances only</span></label>
+            <label class="checkbox-row"><input id="mapped-filter" type="checkbox" /><span data-i18n="mappedOnly">Routes drawn on the map</span></label>
+            <p id="filter-note" class="filter-note" hidden></p>
+          </section>
+          <div class="results-toolbar"><h2><span id="course-count">0</span> <span data-i18n="walks">walks</span></h2><label class="sort-control"><span class="sr-only" data-i18n="sort">Sort courses</span><i data-lucide="arrow-down-wide-narrow"></i><select id="sort-order"><option value="region" data-i18n="byRegion">By region</option><option value="distance" data-i18n="shortest">Shortest first</option><option value="terrain" data-i18n="gentlest">Gentlest first</option></select></label><button id="reset-filters" class="text-button" type="button" data-i18n="reset" hidden>Reset</button></div>
+          <div id="course-list" class="course-list" aria-live="polite"><p class="empty-state" data-i18n="loading">Loading courses...</p></div>
+          <footer class="explorer-footer"><i data-lucide="book-open"></i><a href="http://kurortwalking.com/#course" target="_blank" rel="noopener" data-i18n="guideSource">Kurort walking course guide</a><span id="coverage-count"></span></footer>
+        </div>
+        <section id="detail-panel" hidden aria-label="Course details">
+          <div class="detail-toolbar"><button id="back-button" type="button" class="text-button"><i data-lucide="arrow-left"></i><span data-i18n="back">All results</span></button><div class="detail-actions"><button id="share-button" type="button" class="icon-button" data-i18n-title="share" title="Copy course link" aria-label="Copy course link"><i data-lucide="link"></i></button><button id="detail-save" type="button" class="icon-button" data-i18n-title="save" title="Save walk" aria-label="Save walk"><i data-lucide="bookmark"></i></button></div></div>
+          <div id="selected-course" class="detail-content"></div>
+        </section>
+      </aside>
+      <section class="map-panel" aria-label="Map of walking courses in Japan">
+        <div id="map"></div>
+        <div class="map-heading"><span class="map-heading-icon"><i data-lucide="map"></i></span><div><strong data-i18n="mapTitle">Japan, one walk at a time</strong><span id="map-summary"></span></div></div>
+        <div class="map-tools"><button id="fit-results" class="icon-button" type="button" data-i18n-title="fitResults" title="Show all results" aria-label="Show all results"><i data-lucide="scan"></i></button></div>
+        <div id="map-error" class="map-error" role="status" hidden><span data-i18n="mapError">Map tiles are unavailable. You can still browse the course list.</span><button class="text-button" id="retry-map" type="button" data-i18n="retry">Retry</button></div>
+        <div class="map-legend"><div><span class="legend-dot gentle"></span><span data-i18n="gentle">Flat & gentle</span></div><div><span class="legend-dot rolling"></span><span data-i18n="rolling">Rolling hills</span></div><div><span class="legend-dot hilly"></span><span data-i18n="hilly">Hills & highlands</span></div><div><span class="legend-route"></span><span data-i18n="sourceTrace">Approximate source trace</span></div><p data-i18n="pinNote">Approximate course locations</p></div>
+      </section>
+    </main>
+    <div id="toast" role="status" hidden></div>
+    <noscript><p class="empty-state">JavaScript is needed to display the course map. <a href="http://kurortwalking.com/#course">Open the official course guide</a>.</p></noscript>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="vendor/markercluster/leaflet.markercluster.js"></script>
+    <script src="vendor/lucide/lucide.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

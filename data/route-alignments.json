@@ -1,0 +1,95 @@
+{
+  "hyogo_hyogo02": {
+    "source":"hyogo__hyogo02", "reference_size":[1276,2268], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":191,"meters":200,"north":"page_up"},
+    "controls":[{"name":"なか・やちよの森公園","pixel":[566,1740],"coordinate":[134.9082231,35.0279770],"source":"https://www.openstreetmap.org/node/11775147586"}]
+  },
+  "gifu_gifucity_gifu01_city_shimizugawa": {
+    "source":"gifu-gifucity__gifu01_city_shimizugawa", "reference_size":[1276,3059], "groups":["blue"],
+    "method":"two_landmarks", "review_status":"approximate_source_trace",
+    "controls":[
+      {"name":"岐阜駅","pixel":[538,1106],"coordinate":[136.7569769,35.4094858],"source":"https://www.openstreetmap.org/node/4079317249"},
+      {"name":"金公園","pixel":[523,550],"coordinate":[136.7575670,35.4158501],"source":"https://www.openstreetmap.org/way/492783880"}
+    ]
+  },
+  "gifu_gifucity_gifu01_city_bairin": {
+    "source":"gifu-gifucity__gifu01_city_bairin", "reference_size":[2582,1703], "groups":["blue"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":140,"meters":100,"north":"page_up"},
+    "controls":[{"name":"梅林公園","pixel":[2260,706],"coordinate":[136.7709837,35.4182073],"source":"https://www.openstreetmap.org/way/492775743"}]
+  },
+  "hyogo_hyogo01": {
+    "source":"hyogo__hyogo01", "reference_size":[1151,2048], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":165,"meters":50,"north":"page_up"},
+    "controls":[{"name":"エーデルささゆり","pixel":[145,400],"coordinate":[134.9094545,35.0158314],"source":"https://www.openstreetmap.org/node/5411635370"}]
+  },
+  "okayama_okayama02": {
+    "supplemental_lines":[[[366,981],[383,1018],[397,1050],[400,1102],[405,1131],[422,1157],[449,1173],[487,1190],[509,1202],[512,1217],[503,1246],[493,1280],[483,1311],[509,1357],[541,1405],[550,1418]],[[360,461],[387,443],[415,432],[436,421]]],
+    "source":"okayama__okayama02", "reference_size":[1152,2048], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":164,"meters":50,"north":"page_up"},
+    "controls":[{"name":"満奇洞入口","pixel":[436,421],"coordinate":[133.5835859,34.9718514],"source":"https://www.openstreetmap.org/node/8920889509"}]
+  },
+  "mie_mie01": {
+    "source":"mie__mie01", "reference_size":[1151,2048], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":112,"meters":50,"north":"page_down"},
+    "controls":[{"name":"横山展望台","pixel":[434,424],"coordinate":[136.7990173,34.3318666],"source":"https://www.openstreetmap.org/node/12543833746"}]
+  },
+  "nagasaki_saikai_nagasaki_saikai_isanoura": {
+    "source":"nagasaki-saikai__nagasaki_saikai_isanoura", "reference_size":[1155,2048], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":153,"meters":100,"north":"page_up"},
+    "controls":[{"name":"伊佐ノ浦ダム","pixel":[662,898],"coordinate":[129.6855455,33.0139240],"source":"https://www.openstreetmap.org/way/517864371"}]
+  },
+  "nagasaki_saikai_nagasaki_saikai_isanoura_optional": {
+    "exclude_boxes":[[60,180,320,325]],
+    "supplemental_lines":[[[419,349],[440,271],[479,235],[501,204],[515,194]]],
+    "source":"nagasaki-saikai__nagasaki_saikai_isanoura", "reference_size":[1155,2048], "groups":["blue"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":153,"meters":100,"north":"page_up"},
+    "controls":[{"name":"伊佐ノ浦ダム","pixel":[662,898],"coordinate":[129.6855455,33.0139240],"source":"https://www.openstreetmap.org/way/517864371"}]
+  },
+  "oita_oita01": {
+    "source": "oita__oita01", "reference_size": [1273,1800],
+    "method": "two_landmarks", "review_status": "approximate_source_trace",
+    "controls": [
+      {"name":"クアージュゆふいん","pixel":[935,650],"coordinate":[131.360006,33.260437],"source":"https://www.visit-oita.jp/spots/detail/4424"},
+      {"name":"大杵社","pixel":[823,1239],"coordinate":[131.357858,33.252371],"source":"https://www.visit-oita.jp/spots/detail/4368"}
+    ],
+    "check_points": [{"name":"由布院駅","pixel":[665,530],"coordinate":[131.3551264,33.2626128],"source":"https://www.openstreetmap.org/way/411437588"}],
+    "manual_lines": [[[933,628],[958,652],[982,701],[1006,744],[969,765],[930,785],[914,802],[904,820],[901,845],[902,878],[905,917],[918,954],[936,986],[946,1020],[951,1058],[964,1076],[992,1089],[990,1117],[998,1143],[971,1161],[945,1179],[924,1184],[893,1180],[864,1179],[838,1175],[814,1176],[809,1196],[814,1224],[808,1240],[820,1257],[835,1267],[862,1273],[855,1254],[852,1232],[842,1214],[839,1195],[837,1177],[814,1176],[781,1171],[756,1174],[744,1163],[737,1147],[724,1129],[707,1104],[701,1081],[689,1056],[670,1044],[664,1027],[675,1010],[653,991],[673,970],[694,953],[720,948],[744,941],[766,925],[780,907],[796,895],[780,875],[768,857],[775,840],[789,818],[802,795],[815,768],[829,728],[840,691],[852,654],[868,627],[885,603],[901,590],[918,603],[933,628]]]
+  },
+  "aichi_toyohashi_aichi_toyohashi_takashi": {
+    "source":"aichi-toyohashi__aichi_toyohashi_takashi", "reference_size":[1193,2048], "groups":["green"],
+    "method":"two_landmarks", "review_status":"approximate_source_trace",
+    "controls":[
+      {"name":"アイプラザ豊橋","pixel":[170,252],"coordinate":[137.3813503,34.7325494],"source":"https://www.openstreetmap.org/way/453680401"},
+      {"name":"高師駅","pixel":[201,1244],"coordinate":[137.3816125,34.7271062],"source":"https://www.openstreetmap.org/node/265836368"}
+    ]
+  },
+  "aichi_toyohashi_aichi_toyohashi_iwaya": {
+    "source":"aichi-toyohashi__aichi_toyohashi_iwaya", "reference_size":[1194,2048], "groups":["green"],
+    "method":"landmark_scale_north", "review_status":"approximate_source_trace",
+    "scale":{"pixels":90,"meters":50,"north":"page_up"},
+    "controls":[{"name":"岩屋観音像","pixel":[214,529],"coordinate":[137.4266334,34.7311602],"source":"https://www.openstreetmap.org/node/4844383997"}]
+  },
+  "aichi_aichi01": {
+    "source":"aichi__aichi01", "reference_size":[1152,2048], "groups":["green"],
+    "method":"two_landmarks", "review_status":"approximate_source_trace",
+    "controls":[
+      {"name":"岡崎市図書館交流プラザ・りぶら","pixel":[592,226],"coordinate":[137.1592936,34.9595903],"source":"https://www.openstreetmap.org/way/229252897"},
+      {"name":"岡崎城","pixel":[494,964],"coordinate":[137.1588070,34.9563236],"source":"https://www.openstreetmap.org/way/231295714"}
+    ]
+  },
+  "aichi_nagoya_aichi_nagoya_nakaku": {
+    "source":"aichi-nagoya__aichi-nagoya_nakaku", "reference_size":[1333,1888], "groups":["blue","purple"],
+    "method":"two_landmarks", "review_status":"approximate_source_trace",
+    "controls":[
+      {"name":"名古屋テレビ塔","pixel":[287,1142],"coordinate":[136.9083338,35.1722972],"source":"https://www.openstreetmap.org/way/51778897"},
+      {"name":"オアシス21","pixel":[454,1397],"coordinate":[136.9095277,35.1708482],"source":"https://www.openstreetmap.org/node/12003232069"}
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "dataset_name": "Tanohata Kurort App - Current Walking/Course Source Dataset",
+    "version": "0.1.0",
+    "compiled_on": "2026-09-03",
+    "scope_note": "Current public course material found for Tanohata Village. No published list of Tanohata-certified Kurort health-walking courses was found; entries are existing walking, guided, geo-tourism, and candidate Kurort-compatible routes.",
+    "status_definitions": {
+      "verified_from_source": "Fact appears directly in a cited source.",
+      "inferred_for_app": "Classification or recommendation tag inferred from route traits; should be reviewed by Tanohata guides/Kurort specialists.",
+      "unknown": "Not found in public source during this pass."
+    },
+    "primary_sources": [
+      {
+        "id": "kurort_iwate_2026",
+        "title": "Japan Kurort Research Institute news: Iwate Kurort co-creation network",
+        "url": "https://kurort.co.jp/news/iwate-kyoso-net/",
+        "notes": "States Tanohata Village is participating from this fiscal year, while existing Iwate Kurort roads are listed for other municipalities."
+      },
+      {
+        "id": "tanohata_trail_guide",
+        "title": "Tanohata Village - Michinoku Shiokaze Trail Guide",
+        "url": "https://www.vill.tanohata.iwate.jp/kankou/see/nature-trekking.html",
+        "notes": "Describes guided trekking, customizable courses by fitness/time, Kitayamazaki Nature Trail, Unosu Cliff Nature Trail, Sanriku Geopark, and guide fees."
+      },
+      {
+        "id": "tanohata_geo_pdf",
+        "title": "Tanohata Geo Tourism PDF",
+        "url": "https://www.vill.tanohata.iwate.jp/_files/00002783/tanohata-geo.pdf",
+        "notes": "Contains four model courses, route points, and durations."
+      },
+      {
+        "id": "tanohata_wave_path_iwate",
+        "title": "Iwate Prefecture - Tanohata Unosu Cliff wave-edge nature trail map",
+        "url": "https://www.pref.iwate.jp/engan/miya_chiiki/1014023/1082218.html",
+        "notes": "Updated 2026-08-20; describes newly mapped wave-edge path, tide/wave conditions, distance, time, tunnels, and safety."
+      },
+      {
+        "id": "tanohata_access",
+        "title": "Tanohata Village tourism access information",
+        "url": "https://www.vill.tanohata.iwate.jp/kankou/info/access.html",
+        "notes": "Current shared sightseeing taxi routes/times/fares, revised 2026-06-01."
+      },
+      {
+        "id": "jaf_kitayamazaki_trail",
+        "title": "JAF Navi - Kitayamazaki Nature Trail",
+        "url": "https://drive.jafnavi.jp/spots/031103240028/",
+        "notes": "Describes Kitayamazaki Nature Trail as extending from Aketo Coast to Kurosaki, with rocks, beaches, tunnels, stairs, and hard terrain."
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "geo_model_01_kenji_tsunami_creta",
+      "name_en": "Geo Model Course No.1 - Cretaceous Strata, Tsunami Heritage, and Miyazawa Kenji",
+      "name_ja": "モデルコース No.1 白亜紀の地層と津波遺構から宮沢賢治の想いをたどる",
+      "course_type": ["geo_tourism_model_course", "heritage", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["private_car", "walking"],
+      "distance_km": null,
+      "estimated_time_min": 90,
+      "estimated_time_note": "Source gives 90 minutes by private car and walking.",
+      "difficulty_inferred": "easy_to_moderate",
+      "difficulty_reason_inferred": "Short duration but route is not a continuous gentle walk; includes coastal stops and transfers.",
+      "elevation_m": null,
+      "waypoints": [
+        "Old Shimanokoshi Station / earthquake remains / Miyazawa Kenji poem monument",
+        "Hiraiga Fishing Port / Cretaceous strata and fossils",
+        "Tanohata Station / Miyazawa Kenji poem monument",
+        "Hiraname Coast / Cretaceous strata and fossils",
+        "Aketo Coast / earthquake remains Aketo seawall"
+      ],
+      "main_themes": ["Miyazawa Kenji", "Cretaceous geology", "tsunami memory", "coastal village history"],
+      "scenery_points": ["coastal strata", "fishing port", "Hiraname Coast", "Aketo Coast"],
+      "facilities_known": ["Tanohata Station nearby", "tourism access by shared sightseeing taxi may support nearby points"],
+      "accessibility_known": ["unknown"],
+      "safety_notes": ["Check coastal weather and footing near beaches and seawalls.", "Treat tsunami remains respectfully."],
+      "seasonal_notes": ["unknown"],
+      "app_suitability_tags_inferred": ["history", "light_exploration", "learning", "visitor_intro"],
+      "not_suitable_for_inferred": ["users needing a fully walkable loop", "users needing confirmed barrier-free access"],
+      "source_ids": ["tanohata_geo_pdf"]
+    },
+    {
+      "id": "geo_model_02_coastal_terrace_scale",
+      "name_en": "Geo Model Course No.2 - Coastal Terraces and Grand-Scale Viewpoints",
+      "name_ja": "モデルコース No.2 高低差がある探索ポイントを巡り、壮大なスケールを満喫",
+      "course_type": ["geo_tourism_model_course", "scenery", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["private_car", "walking", "boat_optional"],
+      "distance_km": null,
+      "estimated_time_min": 180,
+      "estimated_time_note": "Source gives 180 minutes by private car and walking, including 60 minutes aboard sightseeing boat or sappa boat.",
+      "difficulty_inferred": "moderate_to_challenging",
+      "difficulty_reason_inferred": "Source explicitly frames the course around elevation differences and large-scale coastal topography; includes multiple dispersed points.",
+      "elevation_m": null,
+      "waypoints": [
+        "Unosu Cliff viewpoint",
+        "Makisawa Bridge / Omoizaka",
+        "Shii Bridge / Jishokuzaka",
+        "Sightseeing boat or Sappa Boat Adventures / Cretaceous strata and sea caves",
+        "Kitayamazaki viewpoint"
+      ],
+      "main_themes": ["coastal terrace", "cliffs", "sea caves", "viewpoints", "boat experience"],
+      "scenery_points": ["Unosu Cliff", "Kitayamazaki", "sea caves", "coastal terrace valleys"],
+      "facilities_known": ["Kitayamazaki Visitor Center nearby", "boat embarkation points depend on selected boat service"],
+      "accessibility_known": ["unknown"],
+      "safety_notes": ["Boat operation depends on sea/weather conditions.", "Cliff and viewpoint areas require caution."],
+      "seasonal_notes": ["Yamase sea fog can shape visibility and atmosphere in warmer months."],
+      "app_suitability_tags_inferred": ["scenery", "geology", "active_visitor", "guided_day_out"],
+      "not_suitable_for_inferred": ["short walks under 60 minutes", "users avoiding elevation or vehicle transfers"],
+      "source_ids": ["tanohata_geo_pdf"]
+    },
+    {
+      "id": "geo_model_03_fossil_touch_short_walk",
+      "name_en": "Geo Model Course No.3 - Close-Up Cretaceous Fossils",
+      "name_ja": "モデルコース No.3 白亜紀の化石を間近に見て、億万年の時空を体感",
+      "course_type": ["geo_tourism_model_course", "walking", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["walking"],
+      "distance_km": null,
+      "estimated_time_min": 90,
+      "estimated_time_note": "Source gives 90 minutes on foot.",
+      "difficulty_inferred": "moderate",
+      "difficulty_reason_inferred": "Fully walking-based and short, but coastal geology points may include uneven shore footing.",
+      "elevation_m": null,
+      "waypoints": [
+        "Haipe Coast / Cretaceous strata and fossils",
+        "Hiraiga Fishing Port / Cretaceous strata and fossils",
+        "Raga / tsunami stone"
+      ],
+      "main_themes": ["fossils", "Cretaceous strata", "tsunami stone", "hands-on geology"],
+      "scenery_points": ["Haipe Coast", "Hiraiga Fishing Port", "Raga tsunami stone"],
+      "facilities_known": ["Hiraiga/Raga area has nearby accommodation/settlement services, but exact toilets/rest areas need field confirmation."],
+      "accessibility_known": ["unknown"],
+      "safety_notes": ["Use caution around coastal rock surfaces, fishing port edges, and wave conditions.", "Do not remove fossils or disturb geological sites without permission."],
+      "seasonal_notes": ["unknown"],
+      "app_suitability_tags_inferred": ["short_walk", "learning", "family_with_caution", "geology", "resident_guide_story"],
+      "not_suitable_for_inferred": ["wheelchair users without confirmed accessible route", "users unstable on uneven coastal surfaces"],
+      "source_ids": ["tanohata_geo_pdf"]
+    },
+    {
+      "id": "geo_model_04_people_history_nature",
+      "name_en": "Geo Model Course No.4 - People, Life, History, and Nature",
+      "name_ja": "モデルコース No.4 人・暮らし・歴史・自然とのふれあい",
+      "course_type": ["geo_tourism_model_course", "culture", "nature", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["private_car", "walking"],
+      "distance_km": null,
+      "estimated_time_min": 240,
+      "estimated_time_note": "Source gives 240 minutes by private car and walking.",
+      "difficulty_inferred": "moderate",
+      "difficulty_reason_inferred": "Longer multi-stop route with village, museum, bridge, coastal settlement, and nature stops.",
+      "elevation_m": null,
+      "waypoints": [
+        "Kitayamazaki Visitor Center / white rhododendron colony and giant beech walk",
+        "Tashiro and Kochi districts / pasture scenery and primrose habitat",
+        "Tanohata Village Folk Museum / Sanhei Ikki and Jomon dogu",
+        "Shii Bridge / Jishokuzaka",
+        "Shimanokoshi townscape / fishing village settlement scenery"
+      ],
+      "main_themes": ["local life", "history", "folk culture", "rare plants", "pasture landscape", "fishing village"],
+      "scenery_points": ["Kitayamazaki area", "Tashiro/Kochi pasture landscape", "Shimanokoshi townscape"],
+      "facilities_known": ["Kitayamazaki Visitor Center", "Tanohata Village Folk Museum"],
+      "accessibility_known": ["unknown"],
+      "safety_notes": ["Some route points are dispersed; field confirmation needed before presenting as a continuous walk.", "Nature areas require seasonal and wildlife guidance."],
+      "seasonal_notes": ["White rhododendron around Kitayamazaki is noted for June-July bloom period in the geo-tourism source."],
+      "app_suitability_tags_inferred": ["culture", "resident_stories", "relaxation", "slow_tourism", "guided"],
+      "not_suitable_for_inferred": ["users seeking a short no-transfer walk"],
+      "source_ids": ["tanohata_geo_pdf"]
+    },
+    {
+      "id": "guided_michinoku_shiokaze_custom_tanohata",
+      "name_en": "Guided Michinoku Shiokaze Trail / Tanohata Custom Course",
+      "name_ja": "みちのく潮風トレイルガイド / 田野畑カスタムコース",
+      "course_type": ["guided_course", "customizable", "walking", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["walking", "guided"],
+      "distance_km": null,
+      "estimated_time_min": null,
+      "estimated_time_note": "Source says courses can be set according to fitness and available time.",
+      "difficulty_inferred": "variable",
+      "difficulty_reason_inferred": "Guide can adjust route by physical strength, time, weather, season, course, and theme.",
+      "elevation_m": null,
+      "waypoints": [
+        "Kitayamazaki",
+        "Michinoku Shiokaze Trail sections in Tanohata",
+        "Kitayamazaki Nature Trail",
+        "Unosu Cliff Nature Trail",
+        "Sanriku Geopark sites",
+        "earthquake disaster remains"
+      ],
+      "main_themes": ["guided interpretation", "nature", "flowers", "birds", "hand-dug tunnels", "local stories", "seasonal best route"],
+      "scenery_points": ["Kitayamazaki", "coastal trails", "Sanriku Geopark"],
+      "facilities_known": ["NPO Tanohata Network at/near Kitayamazaki Visitor Center"],
+      "accessibility_known": ["can be tailored, but accessible segments need guide confirmation"],
+      "safety_notes": ["Reservation required by 17:00 the previous day; minimum two people for individual bookings.", "Use local guide knowledge for weather, season, and trail choice."],
+      "pricing_known": {
+        "individual": "3000 JPY per person per hour, reservation from 2 people",
+        "group": "10000 JPY per guide for 1 hour; 15000 JPY for 2 hours to half day; 20000 JPY for 4 hours to 1 day"
+      },
+      "seasonal_notes": ["Guides choose the most attractive course for weather and season."],
+      "app_suitability_tags_inferred": ["best_for_personal_matching", "older_users_with_guide", "education", "social", "visitor_intro"],
+      "not_suitable_for_inferred": ["solo users wanting no reservation"],
+      "source_ids": ["tanohata_trail_guide"]
+    },
+    {
+      "id": "unonosu_wave_edge_nature_path",
+      "name_en": "Unosu Cliff Wave-Edge Nature Trail",
+      "name_ja": "たのはた鵜の巣断崖 波打ち際自然歩道",
+      "course_type": ["nature_trail", "adventure", "coastal", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["walking"],
+      "distance_km": 2.0,
+      "distance_note": "One way between Makisawa Coast and Shiraike Coast.",
+      "estimated_time_min": 45,
+      "estimated_time_note": "One way; source warns fatigue can exceed what time/distance imply.",
+      "difficulty_inferred": "challenging",
+      "difficulty_reason_inferred": "Sand, pebble beach, rocks, tide/wave exposure, tunnels, slippery places, and possible scramble at tunnel entrances.",
+      "elevation_m": null,
+      "waypoints": [
+        "Makisawa Coast",
+        "Makisawa Tunnel",
+        "Nagaori Tunnel",
+        "Mihikiba Tunnel",
+        "Nigori Tunnel",
+        "Niwagaiso Tunnel",
+        "Shiraike Coast",
+        "Unosu Cliff area",
+        "Kirushi District Community Center Boyokan"
+      ],
+      "main_themes": ["cliff-base walking", "five hand-dug tunnels", "adventure", "coastal geology"],
+      "scenery_points": ["200m-class Unosu cliffs", "sea caves", "tunnel silhouettes", "wave-edge shore"],
+      "facilities_known": ["Boyokan community center is shown on map near access point"],
+      "accessibility_known": ["not wheelchair suitable inferred; uneven shore and rocks"],
+      "safety_notes": [
+        "Walk only when tide and wave conditions are safe.",
+        "Iwate source reports NPO field surveys found passage is likely possible around tide level 30 cm or lower and wave height 1 m or lower, but actual conditions may differ.",
+        "Check JMA tide data for Miyako and wave forecast before walking.",
+        "Turn back if uncertain.",
+        "High waves can make parts impassable.",
+        "Watch for slips, sprains, fatigue, falling rocks/wet rock, and tunnel entrance conditions."
+      ],
+      "seasonal_notes": ["Source says the period from around spring equinox to autumn equinox is generally best because daytime tide tends to be lower."],
+      "app_suitability_tags_inferred": ["adventure", "experienced_walkers", "guided_recommended", "not_general_health_walk"],
+      "not_suitable_for_inferred": ["older users with limited mobility", "children without close supervision", "bad weather", "high tide", "high waves"],
+      "source_ids": ["tanohata_wave_path_iwate"]
+    },
+    {
+      "id": "kitayamazaki_nature_trail",
+      "name_en": "Kitayamazaki Nature Trail",
+      "name_ja": "北山崎自然遊歩道",
+      "course_type": ["nature_trail", "coastal", "walking", "candidate_kurort_route"],
+      "kurort_certification_status": "unknown_not_published",
+      "route_mode": ["walking"],
+      "distance_km": 21.0,
+      "distance_note": "Third-party trail descriptions commonly describe the Aketo Coast-Kitayamazaki-Kurosaki natural trail as about 21 km; official Tanohata page confirms the named trail exists but does not publish this exact number on the page captured.",
+      "estimated_time_min": null,
+      "difficulty_inferred": "challenging",
+      "difficulty_reason_inferred": "Described as hard terrain with rocks, beaches, tunnels, stairs, and significant up/down movement.",
+      "elevation_m": null,
+      "waypoints": [
+        "Aketo Coast",
+        "Kitayamazaki",
+        "Kitayamazaki Visitor Center",
+        "Kitayama Beach",
+        "Kurosaki area"
+      ],
+      "main_themes": ["coastal cliffs", "forest", "beach", "tunnels", "stairs", "long-distance walking"],
+      "scenery_points": ["Kitayamazaki cliffs", "coastal forest", "beach sections"],
+      "facilities_known": ["Kitayamazaki Visitor Center", "parking and tourist facilities around Kitayamazaki"],
+      "accessibility_known": ["not barrier-free inferred for full route"],
+      "safety_notes": ["Hard route with stairs and uneven natural terrain; guide request is possible through Tanohata tourism/NPO sources.", "Bear/wildlife and weather precautions should be included after local confirmation."],
+      "seasonal_notes": ["White rhododendron colony near Kitayamazaki/Kitayama Beach is noted for June-July bloom in the geo-tourism source."],
+      "app_suitability_tags_inferred": ["active_walkers", "scenery", "long_walk", "guided_recommended"],
+      "not_suitable_for_inferred": ["limited mobility", "short walks", "casual older-user health walk unless shortened by a guide"],
+      "source_ids": ["tanohata_trail_guide", "jaf_kitayamazaki_trail", "tanohata_geo_pdf"]
+    }
+  ],
+  "transport_support": [
+    {
+      "id": "shared_taxi_tsukuehama_kitayamazaki",
+      "name_en": "Sightseeing shared taxi - Tsukuehama Banya Group / Kitayamazaki course",
+      "name_ja": "観光乗合タクシー 机浜番屋群・北山崎コース",
+      "status": "current timetable revised 2026-06-01",
+      "requires_reservation": true,
+      "reservation_note": "Reserve at least 1 hour before departure; return can be reserved when boarding outbound or 30 minutes before return departure.",
+      "fares_jpy_one_way": {
+        "tanohata_station_to_kitayamazaki": 800,
+        "tanohata_station_to_tsukuehama": 500,
+        "tsukuehama_to_kitayamazaki": 500
+      },
+      "source_ids": ["tanohata_access"]
+    },
+    {
+      "id": "shared_taxi_unonosu",
+      "name_en": "Sightseeing shared taxi - Unosu Cliff course",
+      "name_ja": "観光乗合タクシー 鵜の巣断崖コース",
+      "status": "current timetable revised 2026-06-01",
+      "requires_reservation": true,
+      "fare_jpy_one_way": 1500,
+      "source_ids": ["tanohata_access", "tanohata_wave_path_iwate"]
+    }
+  ],
+  "data_gaps_for_fieldwork": [
+    "Which Tanohata routes are or will be certified as Kurort health-walking courses.",
+    "Exact distances/elevation profiles for Geo Model Courses No.1-No.4.",
+    "Toilets, benches, rest areas, water points, shade, and AED locations by course.",
+    "Barrier-free/wheelchair/cane/stroller suitability by segment.",
+    "Current bear-sighting zones and official bear precaution wording for each route.",
+    "Route GPX/GeoJSON traces and start/end coordinates.",
+    "Resident/guide story content permissions and contributor metadata.",
+    "Completion criteria for health-mileage points."
+  ]
+}

@@ -1,0 +1,517 @@
+[
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku",
+    "groups": {
+      "green": 59,
+      "blue": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku_arimatsu",
+    "groups": {
+      "green": 30,
+      "blue": 10
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku_narumi",
+    "groups": {
+      "green": 12,
+      "red": 45
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku_okehazama",
+    "groups": {
+      "green": 67,
+      "red": 16
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku_takinomizu",
+    "groups": {
+      "green": 43,
+      "red": 6
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya-midori__aichi03_midoriku_tokushige",
+    "groups": {
+      "green": 11
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-nagoya__aichi-nagoya_nakaku",
+    "groups": {
+      "purple": 62,
+      "green": 4,
+      "blue": 3
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-toyohashi__aichi_toyohashi_iwaya",
+    "groups": {
+      "blue": 1,
+      "green": 2
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi-toyohashi__aichi_toyohashi_takashi",
+    "groups": {
+      "green": 14
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi__aichi01",
+    "groups": {
+      "green": 27
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aichi__aichi02",
+    "groups": {
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "akita__akita01",
+    "groups": {},
+    "status": "manual_trace_required"
+  },
+  {
+    "source": "akita__akita02",
+    "groups": {
+      "blue": 2,
+      "red": 3
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "akita__akita03",
+    "groups": {
+      "green": 7,
+      "red": 24
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "aomori__aomori01",
+    "groups": {},
+    "status": "manual_trace_required"
+  },
+  {
+    "source": "gifu-gero__gifu_gero_gassho",
+    "groups": {
+      "green": 28
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu-gero__gifu_gero_shimi",
+    "groups": {
+      "red": 26,
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu-gifucity__gifu01_city_bairin",
+    "groups": {
+      "blue": 32,
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu-gifucity__gifu01_city_shimizugawa",
+    "groups": {
+      "blue": 13,
+      "green": 3
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu-minokamo__gifu-minokamo01_map",
+    "groups": {
+      "green": 15
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu-minokamo__gifu-minokamo02_map",
+    "groups": {
+      "green": 44
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu01__gifu01",
+    "groups": {
+      "green": 16
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu01__gifu02",
+    "groups": {
+      "green": 50,
+      "blue": 53
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu02__gifu01",
+    "groups": {
+      "blue": 17,
+      "red": 10,
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu03__gifu01",
+    "groups": {
+      "green": 12
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu03__gifu02",
+    "groups": {
+      "green": 10
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu03__hida_alps",
+    "groups": {
+      "green": 2
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu04__seki01",
+    "groups": {
+      "red": 8,
+      "green": 6
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gifu04__seki02",
+    "groups": {
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gunma-ueno__gunma01_kawanoeki",
+    "groups": {
+      "green": 7
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "gunma-ueno__gunma01_michinoeki",
+    "groups": {
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "hyogo__hyogo01",
+    "groups": {
+      "red": 33,
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "hyogo__hyogo02",
+    "groups": {
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "ishikawa__ishikawa01",
+    "groups": {
+      "blue": 8,
+      "red": 2
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "ishikawa__ishikawa02",
+    "groups": {
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-ichinohe__iwate_ichinohe_okunakayama",
+    "groups": {
+      "green": 1,
+      "blue": 3,
+      "red": 7
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-ichinohe__iwate_ichinohe_park",
+    "groups": {
+      "green": 2,
+      "red": 10
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-iwate__iwate_iwate_ishigami",
+    "groups": {
+      "red": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-iwate__iwate_iwate_park",
+    "groups": {
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-kitakami__iwate_kitakami_thecampus",
+    "groups": {
+      "blue": 7,
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-takizawa__iwate_takizawa_kurakakeainosawa",
+    "groups": {
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "iwate-takizawa__iwate_takizawa_sogokoen",
+    "groups": {
+      "green": 50,
+      "red": 15
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "mie__mie01",
+    "groups": {
+      "green": 55
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "mie__mie02",
+    "groups": {
+      "green": 9,
+      "blue": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "miyazaki__miyazaki01",
+    "groups": {
+      "green": 7
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "miyazaki__miyazaki02",
+    "groups": {
+      "green": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagano-toumi__nagano_tomi_geijutsumura",
+    "groups": {
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagano-toumi__nagano_tomi_yunomarukogen",
+    "groups": {
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagasaki-saikai__nagasaki_saikai_isanoura",
+    "groups": {
+      "green": 15,
+      "blue": 2
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagasaki-saikai__nagasaki_saikai_kyuragi",
+    "groups": {
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagasaki-saikai__nagasaki_saikai_ooshima",
+    "groups": {
+      "green": 2,
+      "blue": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "nagasaki-saikai__nagasaki_saikai_shihondo",
+    "groups": {
+      "green": 2,
+      "blue": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "niigata-myoko__niigata_myoko_forestwalk",
+    "groups": {
+      "green": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "niigata-myoko__niigata_myoko_sasagamine",
+    "groups": {
+      "green": 2,
+      "red": 14
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "oita__oita01",
+    "groups": {},
+    "status": "manual_trace_required"
+  },
+  {
+    "source": "okayama__okayama01",
+    "groups": {
+      "green": 13
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "okayama__okayama02",
+    "groups": {
+      "green": 5
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "saitama01__saitama01",
+    "groups": {
+      "green": 21
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "saitama01__saitama02",
+    "groups": {
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "saitama02__saitama01",
+    "groups": {
+      "green": 51
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "saitama02__saitama02",
+    "groups": {
+      "green": 12
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "shiga__shiga01",
+    "groups": {
+      "green": 55
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "shiga__shiga02",
+    "groups": {
+      "green": 9
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "shizuoka__shizuoka01",
+    "groups": {
+      "green": 10
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "shizuoka__shizuoka02",
+    "groups": {
+      "green": 9
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "yamagata01__yamagata01",
+    "groups": {
+      "blue": 7,
+      "red": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "yamagata01__yamagata02",
+    "groups": {
+      "blue": 1,
+      "red": 1
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "yamagata01__yamagata03",
+    "groups": {
+      "red": 8
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "yamagata02__kaminoyama",
+    "groups": {
+      "red": 48,
+      "blue": 32,
+      "green": 4
+    },
+    "status": "source_shapes_extracted_georeferencing_pending"
+  },
+  {
+    "source": "yamagata03__yamagata01",
+    "groups": {},
+    "status": "manual_trace_required"
+  }
+]
